@@ -118,7 +118,7 @@ ul {
   visibility: visible; }
 
 /*input[type=submit]*/
-a:hover {
+a:hover, a:focus, a:active {
   color: #FFF;
   text-decoration: none; }
 
@@ -263,7 +263,8 @@ body {
 
 .about {
   position: relative;
-  padding-top: 43px; }
+  padding-top: 43px;
+  padding-bottom: 65px; }
 
 .arrow {
   position: absolute;
@@ -273,6 +274,69 @@ body {
   height: 47px;
   background: url("../img/arrow.png") no-repeat top center;
   z-index: 100; }
+
+h2 {
+  color: #1f232f;
+  font-family: ProximaNovaB;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 45px; }
+
+.about-cols {
+  margin-bottom: 40px;
+  overflow: hidden; }
+  .about-cols > div {
+    padding-top: 95px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center; }
+    .about-cols > div:first-child {
+      background-image: url("../img/Word-Processor.png"); }
+    .about-cols > div:nth-child(2) {
+      background-image: url("../img/Task-Manager.png"); }
+    .about-cols > div:nth-child(3) {
+      background-image: url("../img/Contact.png"); }
+    .about-cols > div:nth-child(4) {
+      background-image: url("../img/Favorites.png"); }
+    .about-cols > div p {
+      text-align: center;
+      color: #1f232f;
+      font-family: ProximaNova;
+      font-size: 18px;
+      text-decoration: underline;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      line-height: 1.2; }
+      .about-cols > div p:last-child {
+        margin-bottom: 0; }
+    .about-cols > div div {
+      color: #313131;
+      font-family: ProximaNovaL;
+      font-size: 15px;
+      line-height: 1.2;
+      text-transform: none;
+      text-decoration: none; }
+
+.about-text {
+  width: 940px;
+  margin: auto;
+  color: black;
+  font-family: ProximaNovaL;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-align: center; }
+  .about-text div {
+    margin-bottom: 20px; }
+    .about-text div:last-child {
+      margin-bottom: 0; }
+  .about-text b {
+    font-family: ProximaNovaB; }
+
+.w465 {
+  width: 465px;
+  margin: auto; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
