@@ -364,6 +364,120 @@ h2 {
   padding-top: 55px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+  .direction h3 {
+    color: #9a2625;
+    font-family: ProximaNovaB;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .direction p {
+    margin-bottom: 30px; }
+  .direction span {
+    font-family: ProximaNova;
+    font-size: 31px;
+    text-transform: uppercase;
+    color: white; }
+    .direction span:after {
+      color: #9a2625;
+      content: "|";
+      margin-left: 5px; }
+    .direction span:last-child:after {
+      display: none; }
+
+.halls {
+  text-align: center;
+  color: #1f232f;
+  font-family: ProximaNova;
+  font-size: 18px;
+  line-height: 1.1;
+  padding-bottom: 73px;
+  overflow: hidden; }
+  .halls p {
+    margin-bottom: 20px; }
+
+.w810 {
+  width: 810px;
+  margin: auto; }
+
+.halls-gal {
+  margin-top: 24px;
+  overflow: hidden; }
+  .halls-gal a {
+    display: block;
+    border: 1px solid #000002;
+    padding: 3px;
+    font-size: 0; }
+  .halls-gal li {
+    float: left;
+    margin-right: 12px; }
+    .halls-gal li:last-child {
+      margin-right: 0; }
+
+.write-free {
+  width: 100%;
+  height: 213px;
+  background: #080a12 url("../img/pod.png") no-repeat top center;
+  border: 2px solid #9a2625;
+  margin: auto;
+  position: relative; }
+  .write-free h2 {
+    color: white;
+    font-family: ProximaNovaB;
+    text-align: center;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+  .write-free .w970 {
+    padding: 25px 225px 45px 255px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+.form input {
+  width: 220px;
+  height: 39px;
+  background-color: rgba(255, 255, 255, 0.23);
+  border: 2px solid #5c616e;
+  -webkit-box-shadow: inset 1px 1.7px 2px rgba(0, 0, 2, 0.14);
+          box-shadow: inset 1px 1.7px 2px rgba(0, 0, 2, 0.14);
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  padding: 0 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  margin-bottom: 8px;
+  color: #aeaeae;
+  font-family: ProximaNova;
+  font-size: 18px; }
+
+.form button {
+  float: right;
+  width: 216px;
+  height: 51px;
+  background: #9a2625 url("../img/red-button.png") no-repeat 0 0;
+  border: none;
+  color: white;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 16px; }
+
+.col-button {
+  vertical-align: middle; }
+
+.gal2 {
+  width: 924px;
+  margin: auto;
+  margin-bottom: 55px;
+  overflow: hidden; }
+  .gal2 li {
+    float: left;
+    margin-right: 20px;
+    font-size: 0;
+    margin-bottom: 20px; }
+    .gal2 li:nth-child(4n) {
+      margin-right: 0; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
