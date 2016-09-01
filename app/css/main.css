@@ -549,6 +549,30 @@ h2 {
   background-image: url("../img/arr-r.png");
   right: 0; }
 
+.teachers-after {
+  width: 100%;
+  height: 10px;
+  background-color: #202430;
+  margin-top: 10px; }
+
+.col-contacts {
+  padding-top: 50px; }
+
+.cart .w970 {
+  position: relative; }
+
+.cart-block {
+  width: 290px;
+  height: 265px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  background-color: rgba(32, 36, 48, 0.8);
+  z-index: 1000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 22px 15px; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
