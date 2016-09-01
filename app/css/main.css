@@ -558,8 +558,10 @@ h2 {
 .col-contacts {
   padding-top: 50px; }
 
-.cart .w970 {
-  position: relative; }
+.cart {
+  margin-top: 35px; }
+  .cart .w970 {
+    position: relative; }
 
 .cart-block {
   width: 290px;
@@ -572,6 +574,20 @@ h2 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 22px 15px; }
+  .cart-block div {
+    font-family: Myriad-Pro;
+    color: white;
+    font-size: 18px; }
+
+.bot-adress span {
+  display: block;
+  color: #a82727;
+  font-size: 20px; }
+
+.bot-phone span {
+  display: block;
+  color: #a82727;
+  font-size: 20px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
