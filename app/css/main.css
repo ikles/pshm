@@ -46,20 +46,16 @@ ul {
   margin: 0; }
 
 @font-face {
-  font-family: Oranienbaum;
-  src: url(../fonts/oranienbaum.ttf); }
+  font-family: ProximaNova;
+  src: url(../fonts/Proxima-Nova.otf); }
 
 @font-face {
-  font-family: UniSansHeavyCAPS;
-  src: url(../fonts/unicaps.otf); }
+  font-family: ProximaNovaB;
+  src: url(../fonts/Proxima-Nova-Bold.otf); }
 
 @font-face {
-  font-family: PTSans;
-  src: url(../fonts/pt-sans.ttf); }
-
-@font-face {
-  font-family: "Myriad Pro";
-  src: url(../fonts/MyriadProRegular.ttf); }
+  font-family: ProximaNovaL;
+  src: url(../fonts/Proxima-Nova-Light.otf); }
 
 .toggle-mnu {
   display: block;
@@ -96,7 +92,7 @@ ul {
 .toggle-mnu span:before {
   width: 100%;
   height: 2px;
-  background-color: #000;
+  background-color: #fff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-backface-visibility: hidden;
@@ -122,6 +118,13 @@ ul {
   visibility: visible; }
 
 /*input[type=submit]*/
+a:hover {
+  color: #FFF;
+  text-decoration: none; }
+
+body {
+  font-family: ProximaNova; }
+
 .wrapper {
   width: 100%;
   margin: auto;
@@ -152,10 +155,64 @@ ul {
 .col-logo-mnu-contacts {
   padding-top: 15px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  height: 90px; }
 
-.top_mnu li {
-  float: left; }
+.top_mnu {
+  margin-left: 22px;
+  margin-top: 30px; }
+  .top_mnu li {
+    float: left;
+    margin-right: 16px; }
+    .top_mnu li:last-child {
+      margin-right: 0; }
+    .top_mnu li a {
+      font-family: ProximaNova;
+      font-size: 15px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: white; }
+      .top_mnu li a:hover {
+        color: #8c2636;
+        text-decoration: none; }
+  .top_mnu .active a {
+    color: #8c2636;
+    text-decoration: none; }
+
+.top-phone {
+  padding-left: 45px;
+  background-repeat: no-repeat;
+  background-position: left 0 top 0;
+  background-image: url("../img/top-phone.png");
+  min-height: 38px;
+  color: white;
+  font-family: ProximaNovaB;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 20px; }
+  .top-phone span {
+    font-size: 18px; }
+
+.order-call {
+  color: white;
+  font-family: ProximaNovaL;
+  font-size: 15px;
+  text-transform: none;
+  border-bottom: 3px dotted #fff;
+  margin-top: 6px;
+  display: inline-block; }
+
+.banner {
+  padding-top: 53px;
+  overflow: hidden; }
+  .banner h1 {
+    color: white;
+    font-family: ProximaNovaB;
+    font-size: 39px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 34px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
