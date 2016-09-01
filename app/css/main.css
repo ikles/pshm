@@ -575,19 +575,50 @@ h2 {
           box-sizing: border-box;
   padding: 22px 15px; }
   .cart-block div {
-    font-family: Myriad-Pro;
+    font-family: ProximaNova;
     color: white;
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 20px; }
+    .cart-block div span {
+      display: block;
+      color: #a82727;
+      font-size: 20px;
+      margin-bottom: 5px; }
 
-.bot-adress span {
-  display: block;
-  color: #a82727;
-  font-size: 20px; }
+.cart-block .bot-text {
+  color: white;
+  font-family: ProximaNova;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.1; }
 
-.bot-phone span {
+.footer-call {
+  width: 228px;
+  margin: auto;
+  text-align: center;
+  height: 41px;
+  background-color: #9d2726;
   display: block;
-  color: #a82727;
-  font-size: 20px; }
+  color: white;
+  font-family: ProximaNova;
+  font-size: 16px;
+  line-height: 2.6; }
+
+.footer {
+  background-color: #25262B;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  color: #949494;
+  font-family: ProximaNova;
+  font-size: 16px; }
+  .footer .w970 {
+    padding: 0 15px; }
+  .footer span {
+    font-size: 13px; }
+
+.col-counter {
+  text-align: right; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
