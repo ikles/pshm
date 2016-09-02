@@ -69,7 +69,7 @@ ul {
   display: block;
   width: 28px;
   height: 28px;
-  margin: 40px auto; }
+  margin: 40px auto 20px auto; }
   .toggle-mnu:focus {
     outline: none; }
 
@@ -806,7 +806,28 @@ h2 {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /**/ }
+  .free-less {
+    width: 325px; }
+  .about-cols > div {
+    margin-bottom: 20px; }
+  .direction h3 {
+    font-size: 25px; }
+  .direction span {
+    font-size: 23px; }
+  .write-free {
+    background-image: none;
+    background-color: #181F2D;
+    height: auto; }
+    .write-free form {
+      width: 280px;
+      overflow: hidden; }
+  .form input {
+    width: 100%; }
+  .form button {
+    width: 100%; }
+  .gal2 {
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px); } }
 
 @media only screen and (max-width: 640px) {
   /**/ }
@@ -819,7 +840,17 @@ h2 {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  /**/ }
+  .halls-gal li {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+    float: none; }
+  .check {
+    line-height: 2; }
+  .free-less {
+    width: 100%;
+    font-size: 11px;
+    line-height: 5.3; } }
 
 @media only screen and (max-width: 360px) {
   /**/ }
