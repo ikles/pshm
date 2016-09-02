@@ -89,6 +89,35 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) 	
+	.col-copy
+		text-align: center
+		margin-top: 10px
+		margin-bottom: 10px
+		
+	.arrows
+		a   
+    	height: 45px    
+    	width: 49px
+    	background-size:  100%
+    	&:hover
+    		background-position: 0 -45px 
+    
+
+
+	.col-counter
+		margin-top: 10px
+		text-align: center
+
+	.carousel
+		width: 320px
+	
+	.carousel-wrapper
+		margin-left: 10px
+
+	.cart-block
+		width: 290px
+		left: calc(50% - 145px)
+
 	.free-less
 		width: 325px
 	.about-cols
@@ -118,6 +147,21 @@
 	.gal2
 		width: calc(100% - 30px)
 
+@media only screen and (max-width : 720px) 
+	.gal2
+		li
+			width: 46%	
+			margin-right: 8%		
+			img
+				width: 100%
+				height: auto
+		li
+			&:nth-child(3n)
+				margin-right: 8%
+			&:nth-child(2n)	
+				margin-right: 0
+	
+
 @media only screen and (max-width : 640px) 
 	/**/
 		
@@ -144,7 +188,15 @@
 		line-height: 5.3
 		
 @media only screen and (max-width : 360px) 
-	/**/
+		.gal2
+			li
+				width: 100%
+				margin-right: 0							
+				&:nth-child(3n)
+					margin-right: 0
+				&:nth-child(2n)	
+					margin-right: 0
+				
 @media only screen and (max-width : 320px) 
 	/**/	
 /*==========  Mobile First Method  ==========*/
