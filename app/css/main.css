@@ -47,15 +47,27 @@ ul {
 
 @font-face {
   font-family: ProximaNova;
-  src: url(../fonts/Proxima-Nova.otf); }
+  src: url("../fonts/Proxima-Nova.eot"); }
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("../fonts/Proxima-Nova.otf"); }
 
 @font-face {
   font-family: ProximaNovaB;
-  src: url(../fonts/Proxima-Nova-Bold.otf); }
+  src: url("../fonts/Proxima-Nova-Bold.eot"); }
+
+@font-face {
+  font-family: ProximaNovaB;
+  src: url("../fonts/Proxima-Nova-Bold.otf"); }
 
 @font-face {
   font-family: ProximaNovaL;
-  src: url(../fonts/Proxima-Nova-Light.otf); }
+  src: url("../fonts/Proxima-Nova-Light.eot"); }
+
+@font-face {
+  font-family: ProximaNovaL;
+  src: url("../fonts/Proxima-Nova-Light.otf"); }
 
 .toggle-mnu {
   display: block;
@@ -726,6 +738,10 @@ h2 {
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
   .main-mnu {
     display: none;
     float: right;
@@ -757,10 +773,6 @@ h2 {
         text-decoration: underline; }
     .main-mnu a:hover, .main-mnu li.active a {
       border: none; } }
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-  /**/ }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -796,14 +808,14 @@ h2 {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
   .main-mnu {
     display: block !important; }
   a {
     outline: none !important; } }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  /**/ }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
