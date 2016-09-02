@@ -128,7 +128,8 @@ body {
 .wrapper {
   width: 100%;
   margin: auto;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
 
 .w970 {
   width: 970px;
@@ -559,6 +560,7 @@ h2 {
   padding-top: 50px; }
 
 .cart {
+  height: 300px;
   margin-top: 35px; }
   .cart .w970 {
     position: relative; }
@@ -619,6 +621,74 @@ h2 {
 
 .col-counter {
   text-align: right; }
+
+.db {
+  display: block !important; }
+
+.overlay {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #000;
+  opacity: 0.8; }
+
+.popup form {
+  display: none;
+  width: 282px;
+  background-color: #bcbcbc;
+  border: 1px solid #9a2625;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 33px;
+  position: fixed;
+  top: 150px;
+  left: -webkit-calc(50% - 141px);
+  left: calc(50% - 141px);
+  z-index: 1000; }
+  .popup form input {
+    margin: auto;
+    float: none;
+    padding: 0 5px;
+    width: 100%;
+    height: 37px;
+    background-color: gainsboro;
+    border: 1px solid #b3b3b3;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.26);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.26);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #8e8d8d;
+    font-family: ProximaNova;
+    font-size: 12px;
+    margin-bottom: 20px; }
+  .popup form .phone {
+    margin-bottom: 32px; }
+  .popup form button {
+    float: none;
+    margin: auto;
+    width: 100%;
+    height: 55px;
+    background-color: #9d2726;
+    background-image: none; }
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-family: ProximaNova;
+  color: #000;
+  font-size: 15px; }
+  .close:hover {
+    color: #000; }
+  .close:focus {
+    color: #000; }
+  .close:active {
+    color: #000; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */

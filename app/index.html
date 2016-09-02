@@ -29,10 +29,10 @@
 					</div>
 					<div class="top_mnu main-mnu">
 						<ul>
-							<li class="active"><a href="#">Направление</a></li>
-							<li><a href="#">Залы</a></li>
-							<li><a href="#">Педагоги</a></li>
-							<li><a href="#">Контакты</a></li>							
+							<li><a href="#dir">Направление</a></li>
+							<li><a href="#halls">Залы</a></li>
+							<li><a href="#teachers">Педагоги</a></li>
+							<li><a href="#contacts">Контакты</a></li>							
 						</ul>
 					</div>		
 				</div><!--col-mnu-->	
@@ -47,7 +47,7 @@
 					<div class="col-lg-7 col-banner-text pr0">
 						<h1>школа современной хореографии и мюзикла</h1>
 						<div class="setup">Для любого возраста и уровня подготовки</div>
-						<a href="#" class="free-less">Записаться на бесплатное занятие</a>
+						<a href="#write-free" class="free-less">Записаться на бесплатное занятие</a>
 						<div class="check">Первая Школа Мюзикла основана в <b>2003 г.</b></div>
 					</div>
 					<div class="col-lg-5 col-banner-image pl0">
@@ -98,7 +98,7 @@
 						<div class="w465">11 июля 2012 года Первая Школа Мюзикла получила БЕССРОЧНУЮ
 							Лицензию Департамента Образования Правительства г. Москвы</div>
 						</div>
-						<h2 class="arr_head">Направления школы</h2>
+						<h2 class="arr_head" id="dir">Направления школы</h2>
 					</div><!--about-->
 					<div class="direction">
 						<div class="w970">
@@ -113,7 +113,7 @@
 					<div class="shadow"></div>
 					<div class="halls">
 						<div class="w970">
-							<h2 class="arr_head">Наши залы</h2>
+							<h2 class="arr_head" id="halls">Наши залы</h2>
 							<div class="halls-text">
 								<p>Залы нашей танцевальной школы находятся в шаговой доступности от м. Савеловская или м. Белорусская 
 									по адресу: ул. Правды, дом 24, строение 5.</p>
@@ -129,7 +129,7 @@
 								</ul>
 							</div>
 						</div><!--halls-->
-						<div class="write-free">
+						<div class="write-free" id="write-free">
 							<div class="w970">
 								<h2>Запишись на бесплатное пробное занятие</h2>
 								<div class="form">								
@@ -158,7 +158,7 @@
 								<li><a href="#"><img src="img/dsc_1207.png" alt=""></a></li>
 							</ul>
 						</div><!--gal2-->
-						<h2 class="arr_head">Педагоги</h2>
+						<h2 class="arr_head" id="teachers">Педагоги</h2>
 						<div class="teachers">
 							<ul>
 								<li>
@@ -189,7 +189,7 @@
 						</div><!--teachers-->
 						<div class="teachers-after"></div> 	
 						<div class="col-contacts">
-							<h2 class="arr_head">Контакты</h2>
+							<h2 class="arr_head" id="contacts">Контакты</h2>
 							<div class="cart">
 								<div class="w970">
 									<div class="cart-block">
@@ -222,6 +222,16 @@
 								</div>
 							</div>	
 						</div>
-					</div><!--wrapper-->
-				</body>
-				</html>
+						<div class="overlay"></div>
+						<div class="form popup">								
+							<form>								
+								<a href="#" class="close">X</a>
+								<input type="text" name="name" placeholder="Имя" required>										
+								<input class="phone" type="text" name="phone" placeholder="Телефон" required>																									
+								<button>Перезвонить</button>										
+							</div>
+						</form>
+					</div><!--form-->
+				</div><!--wrapper-->
+			</body>
+			</html>

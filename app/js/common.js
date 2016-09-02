@@ -20,6 +20,12 @@ $(function() {
 		return false;
 	});
 
+	$('.order-call, .footer-call').click(function() {
+		$('.popup form, .overlay').fadeIn();
+	});
 
+	$('.close, .overlay').click(function() {
+		$('.popup form, .overlay').fadeOut();
+	});
 
 }); //ready
