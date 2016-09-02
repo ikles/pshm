@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Главная</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="js/lightbox-gallery/css/styles.css">
+	<link rel="stylesheet" href="css/jquery.lightbox-0.5.css">
 	<link rel="stylesheet" href="css/main.css">
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,6 +17,7 @@
 <![endif]-->
 <script src="js/jquery-1.12.0.min.js"></script>
 <script src="js/common.js"></script>
+<script src="js/lightbox-gallery/js/jquery.lightbox-0.5.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -121,11 +124,11 @@
 									<p>Залы просторные и хорошо кондиционируемые, зимой тепло и уютно.</p>
 								</div>
 							</div>
-							<div class="halls-gal w810">
-								<ul>
-									<li><a href="#"><img src="img/s3.jpg" alt=""></a></li>
-									<li><a href="#"><img src="img/s4.jpg" alt=""></a></li>
-									<li><a href="#"><img src="img/s5.jpg" alt=""></a></li>
+							<div id="thumbnails" class="halls-gal w810">
+								<ul class="clearfix">						
+									<li><a href="img/s3.jpg" title=""><img src="img/s3.jpg" alt=""></a></li>						
+									<li><a href="img/s4.jpg" title=""><img src="img/s4.jpg" alt=""></a></li>						
+									<li><a href="img/s5.jpg" title=""><img src="img/s5.jpg" alt=""></a></li>												
 								</ul>
 							</div>
 						</div><!--halls-->
@@ -145,17 +148,17 @@
 								</div><!--form-->
 							</div>
 						</div><!--write-free-->
-						<div class="shadow"></div>
-						<div class="gal2">
-							<ul>
-								<li><a href="#"><img src="img/dsc_0004.png" alt=""></a></li>
-								<li><a href="#"><img src="img/dsc_0135.png" alt=""></a></li>
-								<li><a href="#"><img src="img/dsc_0217.png" alt=""></a></li>
-								<li><a href="#"><img src="img/dsc_0456.png" alt=""></a></li>
-								<li><a href="#"><img src="img/dsc_0560.png" alt=""></a></li>
-								<li><a href="#"><img src="img/dsc_0955.png" alt=""></a></li>
-								<li><a href="#"><img src="img/dsc_1019.png" alt=""></a></li>
-								<li><a href="#"><img src="img/dsc_1207.png" alt=""></a></li>
+						<div class="shadow"></div>					
+						<div id="thumbnails" class="gal2">
+							<ul class="clearfix">
+								<li><a href="img/dsc_0004.png"><img src="img/dsc_0004.png" alt=""></a></li>
+								<li><a href="img/dsc_0135.png"><img src="img/dsc_0135.png" alt=""></a></li>
+								<li><a href="img/dsc_0217.png"><img src="img/dsc_0217.png" alt=""></a></li>
+								<li><a href="img/dsc_0456.png"><img src="img/dsc_0456.png" alt=""></a></li>
+								<li><a href="img/dsc_0560.png"><img src="img/dsc_0560.png" alt=""></a></li>
+								<li><a href="img/dsc_0955.png"><img src="img/dsc_0955.png" alt=""></a></li>
+								<li><a href="img/dsc_1019.png"><img src="img/dsc_1019.png" alt=""></a></li>
+								<li><a href="img/dsc_1207.png"><img src="img/dsc_1207.png" alt=""></a></li>
 							</ul>
 						</div><!--gal2-->
 						<h2 class="arr_head" id="teachers">Педагоги</h2>

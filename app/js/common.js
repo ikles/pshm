@@ -28,4 +28,13 @@ $(function() {
 		$('.popup form, .overlay').fadeOut();
 	});
 
+	$('a[href^="#"]').click(function () {
+		var elementClick = $(this).attr("href");
+		var destination = $(elementClick).offset().top;
+		$('html,body').animate( { scrollTop: destination }, 1100 );
+		return false;
+	});
+
+	$('#thumbnails a').lightBox();
+
 }); //ready
