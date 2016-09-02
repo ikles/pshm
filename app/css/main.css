@@ -47,27 +47,15 @@ ul {
 
 @font-face {
   font-family: ProximaNova;
-  src: url("../fonts/Proxima-Nova.eot"); }
-
-@font-face {
-  font-family: ProximaNova;
-  src: url("../fonts/Proxima-Nova.otf"); }
+  src: url("../fonts/Proxima-Nova.ttf"); }
 
 @font-face {
   font-family: ProximaNovaB;
-  src: url("../fonts/Proxima-Nova-Bold.eot"); }
-
-@font-face {
-  font-family: ProximaNovaB;
-  src: url("../fonts/Proxima-Nova-Bold.otf"); }
+  src: url("../fonts/Proxima-Nova-Bold.ttf"); }
 
 @font-face {
   font-family: ProximaNovaL;
-  src: url("../fonts/Proxima-Nova-Light.eot"); }
-
-@font-face {
-  font-family: ProximaNovaL;
-  src: url("../fonts/Proxima-Nova-Light.otf"); }
+  src: url("../fonts/Proxima-Nova-Light.ttf"); }
 
 .toggle-mnu {
   display: block;
@@ -81,7 +69,7 @@ ul {
   display: block;
   width: 28px;
   height: 28px;
-  margin: 40px 15px; }
+  margin: 40px auto; }
   .toggle-mnu:focus {
     outline: none; }
 
@@ -203,7 +191,9 @@ body {
   text-transform: uppercase;
   font-size: 20px;
   text-align: right;
-  margin-top: 20px; }
+  margin-top: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .top-phone span {
     font-size: 18px; }
 
@@ -747,7 +737,7 @@ h2 {
     float: right;
     min-width: 250px;
     text-align: right;
-    background-color: #1C242C;
+    background-color: #4c4c4c;
     width: auto;
     position: absolute;
     top: 55px;
@@ -772,7 +762,47 @@ h2 {
       .main-mnu a:hover {
         text-decoration: underline; }
     .main-mnu a:hover, .main-mnu li.active a {
-      border: none; } }
+      border: none; }
+  .w970 {
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px); }
+  .top-phone {
+    width: 212px;
+    float: right; }
+  .banner {
+    overflow: hidden; }
+  .col-banner-image {
+    display: none; }
+  .about-text {
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px); }
+  .w465 {
+    width: -webkit-calc(100% - 100px);
+    width: calc(100% - 100px); }
+  .w810 {
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px); }
+  .halls-gal li {
+    width: 30%;
+    margin-right: 5%; }
+    .halls-gal li img {
+      width: 100%;
+      height: auto; }
+  .write-free .w970 {
+    padding-left: 0;
+    padding-right: 0; }
+  .write-free form {
+    width: 460px;
+    margin: auto; }
+  .gal2 {
+    width: 692px; }
+    .gal2 li:nth-child(3n) {
+      margin-right: 0; }
+    .gal2 li:nth-child(4n) {
+      margin-right: 20px; }
+  .carousel {
+    width: 768px;
+    max-width: 768px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
