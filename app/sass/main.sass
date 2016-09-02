@@ -447,36 +447,12 @@ h2
   margin-bottom: 20px
   height: 166px
   width: 166px
+  margin-left: auto
+  margin-right: auto
   border: 2px solid #9a2625
   margin-bottom: 15px
   background-color: #fff 
   
-.arrows
-  top: 55px
-  left: 0
-  position: absolute
-  width: 100%
-  height: 63px
-
-.arr
-  display: block
-  position: absolute
-  top: 45px
-  width: 68px
-  height: 63px
-  background-repeat: no-repeat
-  background-position: 0 0 
-  &:hover
-    background-position: 0 -63px 
-
-.arr-l
-  background-image: url("../img/arr-l.png") 
-  left: 0
-
-.arr-r
-  background-image: url("../img/arr-r.png")
-  right: 0
-
 .teachers-after   
   width: 100%
   height: 10px
@@ -614,6 +590,67 @@ h2
     color: #000
   &:active
     color: #000
-  
+ 
+.carousel
+  max-width: 964px /* øèðèíà âñåãî áëîêà */
+  margin: 50px auto
+  width: 100%
+  padding: 0 50px  
+  position: relative
+
+.carousel-wrapper
+  margin: 10px 30px /* îòñòóïû äëÿ ñòðåëîê */
+  overflow: hidden /* ñêðûâàåì ñîäåðæèìîå, âûõîäÿùåå çà ðàìêè îñíîâíîé îáëàñòè */
+  position: relative
+
+.carousel-items 
+  width: 10000px /* óñòàíàâëèâàåì áîëüøóþ øèðèíó äëÿ íàáîðà ýëåìåíòîâ */
+  position: relative /* ïîçèöèîíèðóåì áëîê îòíîñèòåëüíî îñíîâíîé îáëàñòè êàðóñåëè */
+
+.carousel-block 
+  float: left /* âûñòðàèâàåì âñå ýëåìåíòû êàðóñåëè â ðÿä */
+  width: 204px /* çàäà¸ì øèðèíó êàæäîãî ýëåìåíòà */
+  padding: 10px 10px 10px 0px /* äåëàåì îñòóïû, ÷òîáû ýëåìåíòû íå ñëèâàëèñü */
+  text-align: center
+
+.carousel-block img
+  display:block
+
+
+/*********** BUTTONS ***********/
+.carousel-button-left a, .carousel-button-right a
+  width: 25px 
+  height: 36px
+  position: relative
+  top: 80px
+  cursor: pointer
+  text-decoration: none
+
+.carousel-button-left, .arr-l
+  left: 0
+  background-image: url("../img/arr-l.png")
+
+.carousel-button-right, .arr-r
+  right: 0 
+  background-image: url("../img/arr-r.png")
+
+.arrows
+  top: 55px
+  left: 0
+  position: absolute
+  width: 100%
+  height: 63px
+  a
+    display: block
+    position: absolute
+    top: 45px
+    width: 68px
+    height: 63px
+    background-repeat: no-repeat
+    background-position: 0 0 
+    z-index: 100
+    &:hover
+      background-position: 0 -63px 
+ 
 
 @import _media
